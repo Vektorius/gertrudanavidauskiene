@@ -1,0 +1,12 @@
+.menu-toggle:hover,
+.menu-close:hover,
+.menu-option:hover {
+  color: darkgray !important;
+  cursor: pointer !important;
+}
+
+/* filepath: /c:/Users/Viktoras/Desktop/Gertos/my-app/src/components/Menu.css */
+.menu-option:hover {
+  color: darkgray !important;
+  cursor: pointer !important;
+}

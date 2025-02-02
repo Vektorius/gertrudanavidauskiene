@@ -1,0 +1,12 @@
+.menu-toggle:hover,
+.menu-close:hover,
+.menu-option:hover {
+  color: darkgray !important;
+  cursor: pointer !important;
+}
+
+
+.menu-option:hover {
+  color: darkgray !important;
+  cursor: pointer !important;
+}

@@ -1,0 +1,12 @@
+.landing-page {
+    background-size: contain; /* Default for desktop */
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .landing-page {
+      background-size: cover; /* Apply 'contain' only for mobile */
+      
+    }
+  }
+  

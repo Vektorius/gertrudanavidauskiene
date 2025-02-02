@@ -1,0 +1,37 @@
+.work-container {
+  margin-left: 28vw; /* Keep it left-aligned on desktop */
+}
+
+@media (max-width: 768px) { /* Apply for mobile */
+  .work-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.large-break {
+  display: block; /* Default large line break */
+}
+
+@media (max-width: 768px) {
+  .large-break {
+    display: none; /* Hides extra break on mobile */
+  }
+}
+
+.selectYear:hover {
+  color: darkgray !important;
+  cursor: pointer !important;
+}
+
+
+@media (max-width: 768px) {
+  .thumbnail {
+    width: 100px; /* Smaller thumbnails for mobile */
+  }
+}
