@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gertrudanavidauskiene/static/css/main.2f112465.css",
+    "main.js": "/gertrudanavidauskiene/static/js/main.19ed8044.js",
+    "static/js/488.9c92ff38.chunk.js": "/gertrudanavidauskiene/static/js/488.9c92ff38.chunk.js",
+    "static/media/background.jpg": "/gertrudanavidauskiene/static/media/background.74dafb849434ef8ab3e3.jpg",
+    "static/media/infoImg.jpg": "/gertrudanavidauskiene/static/media/infoImg.3f82fd513d2513eb42ee.jpg",
+    "static/media/work154.jpg": "/gertrudanavidauskiene/static/media/work154.c466b6fd98da8b3a9b99.jpg",
+    "static/media/work151.jpg": "/gertrudanavidauskiene/static/media/work151.7edbdfb09ffb07086674.jpg",
+    "static/media/work153.jpg": "/gertrudanavidauskiene/static/media/work153.dc8c169346e137da5cbb.jpg",
+    "static/media/work152.jpg": "/gertrudanavidauskiene/static/media/work152.33c129e546bb02aa73a6.jpg",
+    "index.html": "/gertrudanavidauskiene/index.html",
+    "main.2f112465.css.map": "/gertrudanavidauskiene/static/css/main.2f112465.css.map",
+    "main.19ed8044.js.map": "/gertrudanavidauskiene/static/js/main.19ed8044.js.map",
+    "488.9c92ff38.chunk.js.map": "/gertrudanavidauskiene/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f112465.css",
+    "static/js/main.19ed8044.js"
+  ]
+}
