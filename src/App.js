@@ -7,6 +7,7 @@ import { Context } from './appContext';
 import InfoPage from './components/info';
 import Exhibition from './components/exhibitions';
 import Work from './components/work';
+import Generator from './components/generator';
 
 const App = () => {
   const context = useContext(Context);
@@ -31,6 +32,9 @@ const App = () => {
         }
         {
           (context.state.menuOption === 3 ? <Work /> : <></>)
+        }
+        {
+          (context.state.menuOption === 4 ? <Generator /> : <></>)
         }
       </div>
     </div>
