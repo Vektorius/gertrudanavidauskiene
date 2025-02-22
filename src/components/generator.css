@@ -1,0 +1,71 @@
+#generatorCanvas{
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 768px) { /* Apply for mobile */
+    #generatorCanvas{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.generatorButtonClicked {
+    background-color: rgb(235, 235, 235) !important
+}
+
+.generatorButton {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.generatorButton:hover {
+    background-color: rgb(235, 235, 235)
+}
+
+#clearButton{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#clearButton:hover{
+    background-color: rgb(235, 235, 235)
+}
+
+#generateButton{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#generateButton:hover{
+    background-color: rgb(235, 235, 235)
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 16px;
+}
+
+#contacntBtn{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#contacntBtn:hover{
+    background-color: rgb(235, 235, 235)
+}

@@ -24,30 +24,30 @@ export const drawCombined = (canvasID, layersX, layersY, layersZ) => {
 
     let i = 0
 
+    recursiveLoad(canvasID, layersY, 0)
+    recursiveLoad(canvasID, layersZ, 0) 
+    recursiveLoad(canvasID, layersX, 0)
+    
+    
+}
 
-    for (i = 0; i < layersX.length; i++) {
-        img.src = '../util/generator/' + layersX[i] + '.png'
-                img.setAttribute('crossOrigin', '');
-                img.onload = function(){
-                    ctx.drawImage(img, 0,0); 
-                };
-    }
+function recursiveLoad (canvasID, layers, i) {
+    var myCanvas = document.getElementById(canvasID);
+    var ctx = myCanvas.getContext('2d');
+    var img = new Image;
 
-    for (i = 0; i < layersY.length; i++) {
-        img.src = '../util/generator/' + layersY[i] + '.png'
-                img.setAttribute('crossOrigin', '');
-                img.onload = function(){
-                    ctx.drawImage(img, 0,0); 
-                };
-    }
+    img.src = layers[i]
+        console.log(img.src, i)
+        img.onerror = () => console.error("Failed to load image:", img.src);
+        img.onload = () => {
 
-    for (i = 0; i < layersZ.length; i++) {
-        img.src = '../util/generator/' + layersY[i] + '.png'
-                img.setAttribute('crossOrigin', '');
-                img.onload = function(){
-                    ctx.drawImage(img, 0,0); 
-                };
-    }
+            ctx.drawImage(img, 0,0, myCanvas.width, myCanvas.height); 
+            console.log(img.src)
+            if (i === layers.length) {
+                return
+            }
+            recursiveLoad (canvasID, layers, i+1)
+        };
 }
 /*
 export const drawSkeletoonFull = (genes, strength, canvasID, indexer, downscaleTimes, finalScale,) => {
@@ -139,6 +139,12 @@ function downscaleRecursion(canvasID, downscaleTimes, finalScale) {
 
         resample_single(myCanvas, finalScale, finalScale, true)   
      }
+}
+
+export function clearCanvas(canvasID) {
+    var myCanvas = document.getElementById(canvasID);
+    var ctx = myCanvas.getContext('2d');
+    ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
 }
 
 

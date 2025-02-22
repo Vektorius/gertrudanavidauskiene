@@ -20,8 +20,20 @@ const Work = () => {
         textAlign: "left"
       }}
     >
-      
-    { year === 0 ?
+      <div style={
+        {
+          height: "30px",
+        }
+      }/>
+    Soon
+
+    </div>
+  );
+};
+
+export default Work;
+
+    /*{ year === 0 ?
     <p style={{ marginBottom: "1rem" }}>  
         <br />
         <br />
@@ -62,9 +74,4 @@ const Work = () => {
     }
     { year === 2015 ? 
     <ImageGallery year={2015} imageCount={4} text={text2015} textPosition={[0]}/> : <></>}
-
-    </div>
-  );
-};
-
-export default Work;
+    */

@@ -28,7 +28,8 @@ const Menu = () => {
         <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 1)}}>Info</div></li>
         <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 2)}}>Exhibitions</div></li>
         <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 3)}}>Work</div></li>
-        <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 4)}}>Shop</div></li>
+        <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 3)}}>Shop</div></li>
+        <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 4)}}>xyz = ?</div></li>
       </ul>
     </div>
   );

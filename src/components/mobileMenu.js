@@ -35,9 +35,12 @@ const MobileMenu = () => {
               <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 3)
                 toggleMenu()
               }}>Work</div></li>
-              <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 4)
+              <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 3)
                 toggleMenu()
               }}>Shop</div></li>
+              <li className="my-3"><div className="menu-option text-black text-decoration-none" onClick={() => {changeMenu(context, 4)
+                toggleMenu()
+              }}>xyz = ?</div></li>
             </ul>
           </div>
         )}

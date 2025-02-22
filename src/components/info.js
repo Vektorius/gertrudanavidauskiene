@@ -39,10 +39,6 @@ const InfoPage = () => {
         <br />
         <br />
         <br />
-        I doodle sometimes 
-        <br />
-        <br />
-        <br />
     </p>
 
 
@@ -51,13 +47,16 @@ const InfoPage = () => {
         <br /> {/* Line break */}
         <br />
         <br />
-        2014-2018 Vilnius lyceum 
+        2023-2025 MA, Art therapy
         <br />
         <br/>
-        2018-2022 BA, faculty of Philology and faculty of Philosophy
+        2018-2022 BA, Psychology
         <br/>
         <br />
-        2023-2025 MA, faculty of Medicine
+        2018-2022 BA, Philology
+        <br />
+        <br />
+        2014-2018 Vilnius lyceum
         <br />
         <br />
         <br />
@@ -91,15 +90,6 @@ const InfoPage = () => {
       </p>
 
       <p style={{ marginBottom: "1rem" }}>
-        <strong>Memberships </strong>  
-        <br /> {/* Line break */}
-        <br />
-        Member of Lithuanian Art Therapy Association (LDTA)  
-
-        <br /> {/* Line break */}
-        <br />
-        <br />
-        <br />
 
         <strong>Social media </strong>  
         <br /> {/* Line break */}

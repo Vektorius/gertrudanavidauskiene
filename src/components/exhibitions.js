@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import infoImg from "../util/infoImg.jpg"; // Import image
+import plakatas from "../util/Plakatas.jpeg"; // Import image
 import './exh.css';
 
 const Exhibition = () => {
@@ -19,18 +19,29 @@ const Exhibition = () => {
     <p style={{ marginBottom: "1rem" }}>  
         <br />
         <br />
-        2025.03.03 - 03.16 
-
-        <br />
+        Happening now : ĮKYRUMAI / IMPORTUNITY    
         <br/>
-        ĮKYRUMAI
+        <br/>
+        <a 
+            className="socialLink"
+            href="https://www.facebook.com/events/1658670891405771/1658670928072434/?active_tab=about" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: "black", textDecoration: "none" }}
+        >
+            Event Link
+        </a>
 
-        <br />
-        <br />
-
-        LDS Projektų erdvė
-        <br />
-        <br />
+        <img 
+                src={plakatas} 
+                alt="Info" 
+                style={{ 
+                  width: "100%", 
+                  maxWidth: "600px", 
+                  height: "auto", 
+                  marginTop: "1rem" // Space after text
+                }} 
+              />
 
     </p>
 
