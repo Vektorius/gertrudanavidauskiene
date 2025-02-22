@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gertrudanavidauskiene/static/css/main.1ffe961f.css",
-    "main.js": "/gertrudanavidauskiene/static/js/main.5d768456.js",
+    "main.css": "/gertrudanavidauskiene/static/css/main.5634fa8e.css",
+    "main.js": "/gertrudanavidauskiene/static/js/main.73e916a3.js",
     "static/js/488.9c92ff38.chunk.js": "/gertrudanavidauskiene/static/js/488.9c92ff38.chunk.js",
     "static/media/background.jpg": "/gertrudanavidauskiene/static/media/background.74dafb849434ef8ab3e3.jpg",
     "static/media/Plakatas.jpeg": "/gertrudanavidauskiene/static/media/Plakatas.b2f086321c537a6e4ee8.jpeg",
@@ -32,12 +32,12 @@
     "static/media/Z6.png": "/gertrudanavidauskiene/static/media/Z6.24ca713865e7c9b2549b.png",
     "static/media/X6.png": "/gertrudanavidauskiene/static/media/X6.7f644b5a83d4549d6260.png",
     "index.html": "/gertrudanavidauskiene/index.html",
-    "main.1ffe961f.css.map": "/gertrudanavidauskiene/static/css/main.1ffe961f.css.map",
-    "main.5d768456.js.map": "/gertrudanavidauskiene/static/js/main.5d768456.js.map",
+    "main.5634fa8e.css.map": "/gertrudanavidauskiene/static/css/main.5634fa8e.css.map",
+    "main.73e916a3.js.map": "/gertrudanavidauskiene/static/js/main.73e916a3.js.map",
     "488.9c92ff38.chunk.js.map": "/gertrudanavidauskiene/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ffe961f.css",
-    "static/js/main.5d768456.js"
+    "static/css/main.5634fa8e.css",
+    "static/js/main.73e916a3.js"
   ]
 }
