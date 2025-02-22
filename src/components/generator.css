@@ -11,7 +11,7 @@
 }
 
 .generatorButtonClicked {
-    background-color: rgb(235, 235, 235) !important
+    background-color: rgb(235, 235, 235) !important 
 }
 
 .generatorButton {
@@ -68,4 +68,18 @@
 
 #contacntBtn:hover{
     background-color: rgb(235, 235, 235)
+}
+
+.buttonContainerBox {
+    top: 20px;
+    height: 300px;
+    width: 345px;
+
+}
+
+.buttonContainer {
+    height: 300px;
+    width: 110px;
+    margin-right: 5px;
+    float: left;
 }

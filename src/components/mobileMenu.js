@@ -21,7 +21,7 @@ const MobileMenu = () => {
           {isOpen ? "" : "Gertrūda Navidauskienė"}
         </div>
         {isOpen && (
-          <div className="fixed top-0 left-0 bg-white text-black d-flex flex-column justify-content-center align-items-center" style={{ fontFamily: 'Courier New', width: '100vw', height: '94vh', zIndex: 1050 }}>
+          <div className="fixed top-0 left-0 bg-white text-black d-flex flex-column justify-content-center align-items-center" style={{ fontFamily: 'Courier New', width: '100vw', height: '98vh', zIndex: 1050 }}>
             <div onClick={toggleMenu} className="menu-close text-black" style={{ fontFamily: 'Courier New', textTransform: 'uppercase', position: 'absolute', top: '1rem', right: '1rem', cursor: 'pointer' }}>
               X
             </div>

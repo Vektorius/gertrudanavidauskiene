@@ -95,17 +95,30 @@ const Generator = () => {
       }}
     >
       <div style={{
-        height : "20px"
-      }}/>
-      I feel x because my y makes me feel z
+        "margin-top": "20px",
+        height : "20px",
+        "overflow-wrap": "break-word",
+        float: "left",
+        "justify-content": "start",
+        "align-items": "start",
+        marginBottom: "20px"
+      }}>
+        I feel x because my y makes me feel z
+      </div>
       <div style={{
         height : "20px"
       }}/>
+      <div style={{
+        display: "flex",
+        "justify-content": "flex-start",
+      }}>
+      </div>
       
-    <div id="buttonContainer"> 
-    Choose:
-    <br/>  
+    <div className="buttonContainerBox">
+    <div className="buttonContainer"> 
+    
     X:
+    <br/>
     <button id="x7" className="generatorButton" onClick={() => {
         changeAppearance("x7")
         addItemX(X1)
@@ -118,7 +131,7 @@ const Generator = () => {
     <button id="x2" className="generatorButton" onClick={() => {
         changeAppearance("x2")
         addItemX(X3)
-    }}>Pathetic</button>     
+    }}>Lame</button>     
     <button id="x3" className="generatorButton" onClick={() => {
         changeAppearance("x3")
         addItemX(X4)
@@ -136,7 +149,10 @@ const Generator = () => {
         addItemX(X7)
     }}>Sad</button> 
     <br/>
+    </div>
+    <div className="buttonContainer"> 
     Y:
+    <br/>
     <button id="y7" className="generatorButton" onClick={() => {
         changeAppearance("y7")
         addItemY(Y1)
@@ -149,7 +165,7 @@ const Generator = () => {
     <button id="y2" className="generatorButton" onClick={() => {
         changeAppearance("y2")
         addItemY(Y3)
-    }}>Patheticness</button>     
+    }}>Lameness</button>     
     <button id="y3" className="generatorButton" onClick={() => {
         changeAppearance("y3")
         addItemY(Y4)
@@ -166,9 +182,10 @@ const Generator = () => {
         changeAppearance("y6")
         addItemY(Y7)
     }}>Sadness</button> 
-
-    <br/>
+    </div>
+    <div className="buttonContainer"> 
     Z:
+    <br/>
     <button id="Z7" className="generatorButton" onClick={() => {
         changeAppearance("Z7")
         addItemZ(Z1)
@@ -181,7 +198,8 @@ const Generator = () => {
     <button id="Z2" className="generatorButton" onClick={() => {
         changeAppearance("Z2")
         addItemZ(Z3)
-    }}>Pathetic</button>     
+    }}>Lame</button>  
+    <br/>   
     <button id="Z3" className="generatorButton" onClick={() => {
         changeAppearance("Z3")
         addItemZ(Z4)
@@ -198,6 +216,7 @@ const Generator = () => {
         changeAppearance("Z6")
         addItemZ(Z7)
     }}>Sad</button> 
+    </div>
     </div>
     <div className="button-container">
       <button id="generateButton" onClick={() => {
@@ -217,11 +236,12 @@ const Generator = () => {
     This program allows you to choose from 7 different emotions (21 layers) 
     <br/>
     <br/>
-    <button id="contacntBtn" onClick={() => {
-      window.location.href = "mailto:gertruda.navidauskiene@gmail.com"
-      }}>Contact me</button>
-      if you want to purchase a high quality custom xyz combination choosing from 130 different emotions (390 layers)
-
+    
+    
+      If you want to purchase a high quality custom xyz combination choosing from 130 different emotions (390 layers) contact me
+      <br/>
+      <br/>
+      List of 130 emotions 
 
     </div>
   );

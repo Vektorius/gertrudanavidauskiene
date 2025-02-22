@@ -13,7 +13,8 @@ const InfoPage = () => {
         marginLeft: "28vw",  // Move it to the left on desktop
         padding: "5vh 5vw",  // Reduced padding
         maxWidth: "800px", // Prevent overly wide text
-        textAlign: "left"
+        textAlign: "left",
+        display: "block"
       }}
     >
       <img 
@@ -26,6 +27,7 @@ const InfoPage = () => {
           marginTop: "1rem" // Space after text
         }} 
       />
+      
     <p style={{ marginBottom: "1rem" }}>  
         <br />
         <br />
