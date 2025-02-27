@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gertrudanavidauskiene/static/css/main.5634fa8e.css",
-    "main.js": "/gertrudanavidauskiene/static/js/main.d81d0856.js",
+    "main.js": "/gertrudanavidauskiene/static/js/main.5be4bca6.js",
     "static/js/488.9c92ff38.chunk.js": "/gertrudanavidauskiene/static/js/488.9c92ff38.chunk.js",
     "static/media/background.png": "/gertrudanavidauskiene/static/media/background.abc977112934a7b5db73.png",
     "static/media/Plakatas.jpeg": "/gertrudanavidauskiene/static/media/Plakatas.b2f086321c537a6e4ee8.jpeg",
@@ -33,11 +33,11 @@
     "static/media/X6.png": "/gertrudanavidauskiene/static/media/X6.7f644b5a83d4549d6260.png",
     "index.html": "/gertrudanavidauskiene/index.html",
     "main.5634fa8e.css.map": "/gertrudanavidauskiene/static/css/main.5634fa8e.css.map",
-    "main.d81d0856.js.map": "/gertrudanavidauskiene/static/js/main.d81d0856.js.map",
+    "main.5be4bca6.js.map": "/gertrudanavidauskiene/static/js/main.5be4bca6.js.map",
     "488.9c92ff38.chunk.js.map": "/gertrudanavidauskiene/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5634fa8e.css",
-    "static/js/main.d81d0856.js"
+    "static/js/main.5be4bca6.js"
   ]
 }
